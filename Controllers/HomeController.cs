@@ -13,8 +13,9 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult IndexAction()
     {
+        var test = "test";
         return View();
     }
 
